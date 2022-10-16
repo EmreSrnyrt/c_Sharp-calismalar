@@ -1,0 +1,349 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ödevler
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            int toplam = 0;
+            int islemNo = 0;
+            Console.Write("kaç tane sayı ile işlem yapılacak: ");
+            int islemAdedi = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < islemAdedi; i++)
+
+            {
+                Console.Write((i + 1) + ".Sayı: ");
+                int sayi = Convert.ToInt32(Console.ReadLine());
+                toplam += sayi;
+                islemNo++;
+            }        
+
+            Console.WriteLine(islemNo+" Tane sayının toplamı= "+toplam);
+            Console.ReadLine();
+            */
+
+
+
+
+            /*
+            int toplam = 0;
+            int islemNo = 0;
+            int islemAdedi = 5;
+            Console.WriteLine(islemAdedi+" adet işlem yapılacak: ");
+            
+
+            for (int i = 0; i < islemAdedi; i++)
+
+            {
+                Console.Write((i + 1) + ".Sayı: ");
+                int sayi = Convert.ToInt32(Console.ReadLine());
+                toplam += sayi;
+                islemNo++;
+            }
+
+            Console.WriteLine(islemNo + " Tane sayının toplamı= " + toplam);
+
+
+            Console.ReadLine();
+            */
+
+            
+            
+            /*
+            
+            Console.WriteLine();
+            Console.WriteLine("/// Not sıralaması yapılmadan Karışık kullanım///");
+            Console.WriteLine();
+
+            int[] notlar = new int[15];
+            notlar.SetValue(50, 0);
+            notlar.SetValue(75, 1);
+            notlar.SetValue(30, 2);
+            notlar.SetValue(40, 3);
+            notlar.SetValue(55, 4);
+            notlar.SetValue(65, 5);
+            notlar.SetValue(70, 6);
+            notlar.SetValue(18, 7);
+            notlar.SetValue(63, 8);
+            notlar.SetValue(85, 9);
+            notlar.SetValue(95, 10);
+            notlar.SetValue(80, 11);
+            notlar.SetValue(23, 12);
+            notlar.SetValue(90, 13);
+            notlar.SetValue(32, 14);
+
+            for (int i = 0; i < 15; i++)
+            {
+                if (notlar[i] > 100)
+                {
+                    Console.WriteLine("Geçersiz Not");
+                }
+                else if (notlar[i] >= 85)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Mükemmel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 65)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Güzel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 45)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Orta, Geçtiniz. ");
+                }
+                else if (notlar[i] >= 30)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Kötü, Koşullu geçtiniz. ");
+                }
+                else
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Çok Kötü, Kaldınız. ");
+                }
+            }
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine("/// Notları küçükten büyüğe sıraladıktan sonra ki kullanım.///");
+            Console.WriteLine();
+
+            Array.Sort(notlar);
+            for (int i = 0; i < 15; i++)
+            {
+                if (notlar[i] > 100)
+                {
+                    Console.WriteLine("Geçersiz Not");
+                }
+                else if (notlar[i] >= 85)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Mükemmel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 65)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Güzel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 45)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Orta, Geçtiniz. ");
+                }
+                else if (notlar[i] >= 30)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Kötü, Koşullu geçtiniz. ");
+                }
+                else
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Çok Kötü, Kaldınız. ");
+                }
+            }
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine("/// Notları index numaralarını döndererek kullanımı.///");
+            Console.WriteLine();
+
+            Array.Reverse(notlar);
+            for (int i = 0; i < 15; i++)
+            {
+                if (notlar[i] > 100)
+                {
+                    Console.WriteLine("Geçersiz Not");
+                }
+                else if (notlar[i] >= 85)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Mükemmel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 65)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Güzel, Geçtiniz.");
+                }
+                else if (notlar[i] >= 45)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Orta, Geçtiniz. ");
+                }
+                else if (notlar[i] >= 30)
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Kötü, Koşullu geçtiniz. ");
+                }
+                else
+                {
+                    Console.WriteLine("Alınan not: " + notlar.GetValue(i) + ": Çok Kötü, Kaldınız. ");
+                }
+            }
+
+            
+            Console.ReadLine();
+            */
+
+
+            /*
+
+            // [2,2] MATRİS TANIMLAMA VE DEĞER ATAMA ÖRNEĞİ 1
+            int[,] diziA = new int[2, 2];
+            diziA[0, 0] = 3;
+            diziA[0, 1] = 5;
+            diziA[1, 0] = 2;
+            diziA[1, 1] = 4;
+
+            Console.WriteLine(diziA[0, 1]); // 0. satırın 1. elemanını istiyor.
+            Console.WriteLine("--------------");
+            foreach (int a in diziA) // diziA'yı (a)'ya tanımlıyoruz.
+                Console.WriteLine(a); // a'ya tanımlanan diziA'yı komple yazdırır.
+
+
+
+            Console.WriteLine("***** 2. Örnek ***** ");
+
+
+            // [2,2] MATRİS TANIMLAMA VE DEĞER ATAMA ÖRNEĞİ 2
+            int[,] diziB = { { 3, 5 }, { 2, 4 } };
+
+
+            Console.WriteLine(diziB[0, 1]);
+            Console.WriteLine("--------------");
+            foreach (int a in diziB)
+                Console.WriteLine(a);
+
+            Console.ReadLine();
+
+            */
+
+            /*
+
+            // [2,4] FOR VE FOREACH İLE MATRİSİ EKRANA YAZDIRMA ÖRNEĞİ
+            int[,] dizi2 = { { 3, 5, 7, 9 }, { 2, 4, 6, 8 } };
+            foreach (int a in dizi2)
+            {
+                Console.WriteLine(a);
+            }
+
+            Console.WriteLine("--------------");
+
+            for (int i = 0; i < 2; i++)
+            {
+                for (int k = 0; k < 4; k++)
+                {
+                    Console.Write(dizi2[i, k]);
+                }
+            }
+            Console.WriteLine(" ");
+            Console.WriteLine("--------------");
+
+            
+            Console.ReadLine();
+
+            */
+            
+            /*
+
+            //KULLANICIDAN BİLGİLERİ İSTEYEREK YENİ BİR MATRİŞ OLUŞTURMA ÖRNEĞİ
+            int str, stn, sayi;
+            Console.Write("Satır sayısı:");
+            str = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Sütun sayısı:");
+            stn = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
+
+            int[,] matris = new int[str, stn];
+            for (int i = 0; i < str; i++)
+            {
+                for (int a = 0; a < stn; a++)
+                {
+                    Console.Write($"Matrisin {i}x{a} değerini gir: ");
+                    sayi = Convert.ToInt32(Console.ReadLine());
+                    matris[i, a] = sayi;
+                    Console.Clear();
+                }
+            }
+
+            for (int i = 0; i < str; i++)
+            {
+                for (int a = 0; a < stn; a++)
+                {
+                    Console.Write(matris[i, a] + "  ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("Length: " + matris.Length);
+
+            Console.ReadLine();
+
+
+            */
+
+
+            /*
+
+            // MATRİSİN ELEMANLARI TOPLAMINI BULAN ÖRNEK
+            int[,] matrsss = { { 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5 }, { 10, 20, 30, 40, 50 } };
+            int toplam = 0;
+
+            toplam = 0;
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int a = 0; a < 5; a++)
+                {
+                    toplam = toplam + matrsss[i, a];
+
+                }
+            }
+            Console.WriteLine("Matrisin toplamı: " + toplam);
+
+            Console.ReadLine();
+
+            */
+
+            /*
+            
+
+            // [3,5] LİK 2 2 ADET MATRİSİN ELEMANLARI TOPLAMI İLE YENİ BİR MATRİS OLUŞTURMA ÖRNEĞİ
+            int[,] matrs1 = { { 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5 }, { 10, 20, 30, 40, 50 } };
+            int[,] matrs2 = { { 45, 17, 43, 64, 15 }, { 10, 20, 30, 40, 50 }, { 5, 6, 7, 8, 9 } };
+            int[,] Matrsler = new int[3, 5];
+            int matrislerToplami = 0;
+
+
+            for (int i = 0; i < matrs1.GetLength(0); i++)
+            {
+                for (int k = 0; k < matrs1.GetLength(1); k++)
+                {
+                    matrislerToplami = matrs1[i, k] + matrs2[i, k];
+                    Matrsler[i, k] = matrislerToplami;
+                }
+            }
+            Console.WriteLine("Matris1 ve Matris2 Toplamı: " + matrislerToplami);
+            Console.WriteLine("----------------------------");
+            for (int i = 0; i < Matrsler.GetLength(0); i++)
+            {
+                for (int k = 0; k < Matrsler.GetLength(1); k++)
+                {
+                    Console.Write(Matrsler[i, k] + "  ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("----------------------------");
+
+            int x = 0;
+            foreach (var item in Matrsler)
+            {
+                x += item;
+            }
+
+            Console.WriteLine("Son Matris Elemanlar Toplamı: " + x);
+
+
+            Console.ReadLine();
+
+
+            */
+
+        }
+    }
+}
+
